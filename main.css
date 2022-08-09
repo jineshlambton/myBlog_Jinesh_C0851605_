@@ -1,0 +1,67 @@
+body {
+    background-color: #DBF9FC;
+    }
+  
+.container {
+    position: relative;
+}
+
+.container__wrapper {
+    /* Displayed at the top left corner */
+    left: 0px;
+    position: absolute;
+    top: 0px;
+
+    /* Size */
+    height: 100px;
+    width: 10   0px;
+
+    /* Hide the part of its children which is displayed outside */
+    overflow: hidden;
+}
+
+.container__ribbon {
+    /* Position */
+    left: -50px;
+    position: fixed;
+    top: 50px;
+
+    /* Size */
+    height: 24px;
+    width: 206px;
+
+    /* Displayed diagonally */
+    transform: rotate(-45deg);
+
+    /* Background color */
+    background-color: rgba(0, 0, 0, 0.3);
+
+    /* Centerize the text content */
+    text-align: center;
+
+    font-size: 1.2rem;
+    color: blue;
+
+}
+
+
+.elevatorpitch {
+   
+    margin-top:10%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightgrey;
+    border: 3px solid green;
+    text-align: justify;
+    padding: 10px;
+    box-sizing: 10px;
+    height: 80%;
+    width: 80%;
+    box-shadow: 8px 8px #888888 ;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+
+
